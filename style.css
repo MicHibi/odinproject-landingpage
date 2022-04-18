@@ -34,7 +34,8 @@ header {
     background-color: #3882F6;
     color:#F9FAF8;
     margin: 2px;
-    padding: 2px;
+    padding: 8px;
+    border-radius: 3px;
 }
 img {
     width: 400px;
@@ -64,7 +65,22 @@ section .quote {
     align-items: center;
     padding: 100px;
 }
-
+section .cta, .cta-container {
+    background-color: #3882F6;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#cta button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: 2px;
+}
 footer {
     display: flex;
     justify-content: center;
